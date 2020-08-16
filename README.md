@@ -1,4 +1,4 @@
-[![DecaDojo Cover Photo](/ogp-decadojo.jpg)(http://decadojo.coderdojo.jp/)
+[![DecaDojo Cover Photo](/img/ogp-decadojo.jpg)(http://decadojo.coderdojo.jp/)
 
 # What's Decadojo?
 
