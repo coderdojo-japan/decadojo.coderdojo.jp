@@ -24,6 +24,14 @@
 
 ## Copyright
 
-Copyright ©  DecaDojo – でかドージョー team
+### Theme
+
+- Theme:「ORION」(Version: 3.0)
+- Author: [Design Plus](http://design-plus1.com/tcd-w/)
+- 利用規約: [https://design-plus1.com/tcd-w/license_standard](https://design-plus1.com/tcd-w/license_standard)
+
+### Other Asset files
+
+Copyright ©  DecaDojo – でかドージョー
 
 _(NOTE: This repo is being migrated into GitHub with approval from Takuma Tsuneda.)_
