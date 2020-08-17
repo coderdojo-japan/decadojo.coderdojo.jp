@@ -26,7 +26,7 @@
 
 ### Theme
 
-- Theme:「ORION」(Version: 3.0)
+- Theme:「ORION」(Version: 3.2.4)
 - Author: [Design Plus](http://design-plus1.com/tcd-w/)
 - 利用規約: [https://design-plus1.com/tcd-w/license_standard](https://design-plus1.com/tcd-w/license_standard)
 
