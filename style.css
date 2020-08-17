@@ -5,7 +5,7 @@ Theme URI:
 Description:WordPressテーマ「ORION」
 Author:Design Plus
 Author URI:http://design-plus1.com/tcd-w/
-Version:3.0
+Version:3.2.4
 */
 
 
@@ -639,21 +639,21 @@ a:hover { text-decoration:underline; }
 
 
 /* スライダーの矢印 */
-.slick-arrow {
+#single_slider .slick-arrow, #index_dis_slider .slick-arrow {
   border:none; height:60px; width:60px; overflow:hidden; text-indent:-400px; position:absolute; z-index:9; cursor:pointer; box-shadow:0 0 3px 0 rgba(0,0,0,0.2);
   -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out;
 }
-.slick-prev {
+#single_slider .slick-prev, #index_dis_slider .slick-prev {
   background:rgba(0,0,0,0.5) url(img/common/slider_arrow1.png) no-repeat 23px;
   top:50%; left:0;
   -webkit-transform: translate3d(0,-50%,0); transform: translate3d(0,-50%,0);
 }
-.slick-next {
+#single_slider .slick-next, #index_dis_slider .slick-next {
   background:rgba(0,0,0,0.5) url(img/common/slider_arrow2.png) no-repeat 25px 23px;
   top:50%; right:0;
   -webkit-transform: translate3d(0,-50%,0); transform: translate3d(0,-50%,0);
 }
-.slick-arrow:hover { background-color:#000; }
+#single_slider .slick-arrow:hover, #index_dis_slider .slick-arrow:hover { background-color:#000; }
 
 
 
@@ -1563,7 +1563,7 @@ share_top5（公式ボタン）
 /* ----------------------------------------------------------------------
  button - CSSボタンのスタイル
 ---------------------------------------------------------------------- */
-.post_content .q_button { min-width:200px; max-width:90%; background-color:#535353; display:inline-block; vertical-align:middle; padding:.6em 1.3em .5em; font-weight:400; font-size:100%; color:#fff !important; margin:0; text-decoration:none; text-align:center; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; -o-box-sizing:border-box; -ms-box-sizing:border-box; box-sizing:border-box; transition:all 0.3s ease-in-out 0s; box-shadow:0 1px 3px rgba(0,0,0,.15); }
+.q_button { min-width:200px; max-width:90%; background-color:#535353; display:inline-block; vertical-align:middle; padding:.6em 1.3em .5em; font-weight:400; font-size:100%; color:#fff !important; margin:0; text-decoration:none; text-align:center; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; -o-box-sizing:border-box; -ms-box-sizing:border-box; box-sizing:border-box; transition:all 0.3s ease-in-out 0s; box-shadow:0 1px 3px rgba(0,0,0,.15); }
 .q_button:hover, .q_button:focus { text-decoration:none; color:#fff; background-color:#7d7d7d; box-shadow:0 2px 2px rgba(0,0,0,.15) inset; }
 /* Button option */
 .rounded { border-radius:6px; }
