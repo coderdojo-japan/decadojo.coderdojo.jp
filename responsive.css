@@ -8,7 +8,7 @@ body { min-width:0; }
   height:auto; min-width:0; width:100%; background:none; border-bottom:none;
 }
 
-#header { height:55px; width:100%; min-width:0; background:#fff; position:relative; left:0px; top:0px; z-index:100; margin:0; }
+#header { height:0px; width:100%; min-width:0; background:#fff; position:relative; left:0px; top:0px; z-index:100; margin:0; }
 #header_inner { width:100%; min-width:0px; height:55px; margin:0; position:relative; }
 
 #main_contents { width:auto; margin:0 auto; padding:0; }

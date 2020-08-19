@@ -186,20 +186,6 @@
 
   <body id="body" class="home page-template-default page page-id-5">
     <div id="top">
-
-      <!-- TODO: This breaks layout design for some reason.
-      <div id="header">
-	<div id="header_inner">
-	  <div id="header_logo">
-	    <div id="logo_image">
-	      <h1 class="logo">
-		<a href="/" title="DecaDojo - でかドージョー"><img src="/img/decadojo-logo.png" alt="DecaDojo - でかドージョー" title="DecaDojo - でかドージョー" /></a>
-	      </h1>
-	    </div>
-	  </div>
-	</div>
-      </div>
-      -->
       
       <div id="header_logo_index">
 	<div class="logo_area">
@@ -213,8 +199,22 @@
       </div>
 
       <div id="youtube_video_player" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=7crNYAY0OWM',containment:'#header_youtube',startAt:0,mute:true,autoPlay:true,loop:true,opacity:1}"></div>
-    </div><!-- END #top -->
 
+      <!-- NOTE: Moved to the end of of 'top'. -->
+      <div id="header">
+	<div id="header_inner">
+	  <div id="header_logo">
+	    <div id="logo_image">
+	      <h1 class="logo">
+		<a href="/" title="DecaDojo - でかドージョー" data-label=""><img src="/img/decadojo-logo.png" alt="DecaDojo - でかドージョー" title="DecaDojo - でかドージョー" /></a>
+	      </h1>
+	    </div>
+	  </div>
+	</div>
+      </div>
+
+    </div><!-- END #top -->
+    
     <div id="main_contents" class="clearfix">
       <div id="index_content1">
 	<div class="index_content1">
