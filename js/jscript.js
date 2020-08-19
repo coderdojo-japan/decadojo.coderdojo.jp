@@ -56,7 +56,7 @@ function mediaQueryClass(width) {
    $("html").removeClass("mobile");
    $("html").addClass("pc");
 
-   $("#header_logo_index .link").attr("href","#header");
+   //$("#header_logo_index .link").attr("href","#header");
    $(".home #return_top a").attr("href","#main_contents");
 
    $(".menu_button").css("display","none");
