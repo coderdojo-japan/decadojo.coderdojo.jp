@@ -1,4 +1,4 @@
-[![DecaDojo Cover Photo](/img/ogp-decadojo.jpg)(http://decadojo.coderdojo.jp/)
+[![DecaDojo Cover Photo](/img/ogp-decadojo.jpg)](https://decadojo.coderdojo.jp/)
 
 # What's Decadojo?
 
@@ -9,7 +9,7 @@
 いつもと違う大きな会場で、みどころ10倍！楽しさ10倍！   
 ニンジャのみんなの参加まってるよ！
 
-[decadojo.coderdojo.jp](http://decadojo.coderdojo.jp/)
+[decadojo.coderdojo.jp](https://decadojo.coderdojo.jp/)
 
 # How to DecaDojo
 「でかドージョー」をやりたいと思った人が、気軽に開催していただけるように、ルールは簡潔にしています。
