@@ -29,9 +29,10 @@
 - Theme:「ORION」(Version: 3.2.4)
 - Author: [Design Plus](http://design-plus1.com/tcd-w/)
 - 利用規約: [https://design-plus1.com/tcd-w/license_standard](https://design-plus1.com/tcd-w/license_standard)
+- 購入記録: [coderdojo-japan/decadojo/img/orion_purchase_license.png](https://github.com/coderdojo-japan/decadojo/blob/master/img/ORION_PURCHASE_LISENCE.png)
 
 ### Other Asset files
 
 Copyright ©  DecaDojo – でかドージョー
 
-_(NOTE: This repo is being migrated into GitHub with approval from Takuma Tsuneda.)_
+_(NOTE: This repo is being migrated into GitHub with approval from the website owner, Takuma Tsuneda.)_
