@@ -694,20 +694,22 @@ a:hover { text-decoration:underline; }
   width:17px; height:17px; line-height:17px;
   -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
 }
-#footer_social_link li.twitter:before { content:'\e904'; }
+#footer_social_link li.twitter:before  { content:'\e904'; }
 #footer_social_link li.facebook:before { content:'\e902'; }
-#footer_social_link li.insta:before { content:'\ea92'; top:11px; }
-#footer_social_link li.pint:before { content:'\e905'; top:11px; }
-#footer_social_link li.flickr:before { content:'\eaa4'; top:11px; }
-#footer_social_link li.tumblr:before { content:'\eab9'; top:11px; }
-#footer_social_link li.rss:before { content:'\e90b'; }
-#footer_social_link li.twitter:hover:before { color:#16b9dc; }
+#footer_social_link li.github:before   { content:'\e90c'; }
+#footer_social_link li.insta:before    { content:'\ea92'; top:11px; }
+#footer_social_link li.pint:before     { content:'\e905'; top:11px; }
+#footer_social_link li.flickr:before   { content:'\eaa4'; top:11px; }
+#footer_social_link li.tumblr:before   { content:'\eab9'; top:11px; }
+#footer_social_link li.rss:before      { content:'\e90b'; }
+#footer_social_link li.twitter:hover:before  { color:#16b9dc; }
 #footer_social_link li.facebook:hover:before { color:#3B5998; }
-#footer_social_link li.insta:hover:before { color:#8a3ab9; }
-#footer_social_link li.rss:hover:before { color:#ffcc00; }
-#footer_social_link li.pint:hover:before { color:#cb2027; }
-#footer_social_link li.flickr:hover:before { color:#ff0084; }
-#footer_social_link li.tumblr:hover:before { color:#34526f; }
+#footer_social_link li.github:hover:before   { color:#333333; }
+#footer_social_link li.insta:hover:before    { color:#8a3ab9; }
+#footer_social_link li.rss:hover:before      { color:#ffcc00; }
+#footer_social_link li.pint:hover:before     { color:#cb2027; }
+#footer_social_link li.flickr:hover:before   { color:#ff0084; }
+#footer_social_link li.tumblr:hover:before   { color:#34526f; }
 
 
 /* メニュー */
