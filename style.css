@@ -658,7 +658,8 @@ a:hover { text-decoration:underline; }
 /* ----------------------------------------------------------------------
  フッター
 ---------------------------------------------------------------------- */
-#footer_top { background:#f5f7f6; min-width:1200px; }
+//#footer_top { background:#f5f7f6; min-width:1200px; }
+#footer_top { background:#ffffff; min-width:1200px; }
 #footer_top_inner { width:1200px; margin:0 auto; padding:65px 0 50px; text-align:center; }
 
 
