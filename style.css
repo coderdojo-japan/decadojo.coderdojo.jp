@@ -719,20 +719,6 @@ a:hover { text-decoration:underline; }
 .ml_ad_widget { margin:0 0 60px 0; border:none; padding:0; background:none; }
 .ml_ad_widget img { height:auto; max-width:100%; margin:0 auto; display:block; }
 
-
-/* カレンダー */
-#wp-calendar { margin:0 auto; width:100%; font-size:11px; border-collapse:separate; table-layout:fixed; }
-#wp-calendar th, #wp-calendar td { color:#333; padding:2px; line-height:340%; text-align:center; }
-#wp-calendar td a { display:block; margin:0; padding:0; text-decoration:none; color:#333; background-color:#eee; }
-#wp-calendar td a:hover { text-decoration:none; color:#fff; background:#ccc; }
-#wp-calendar caption { padding:7px 0; }
-#wp-calendar thead th, #wp-calendar tfoot td { border:none; padding:0; line-height:200%; }
-#wp-calendar #prev, #wp-calendar #next { line-height:300%; }
-#wp-calendar #prev a, #wp-calendar #next a { text-decoration:none; background:none; color:#333; }
-#wp-calendar #prev a:hover, #wp-calendar #next a:hover { color:#fff; background:#ccc; }
-#wp-calendar td#today { font-weight:bold; }
-
-
 /* デザインされた記事一覧１ */
 .styled_post_list1 { margin:0; }
 .styled_post_list1 li { margin:0 0 20px 0; padding:0 0 20px 0; background:none; border-bottom:1px solid #ddd; }
@@ -834,11 +820,9 @@ a:hover { text-decoration:underline; }
 .post_content .alignright { float:right; }
 .post_content .alignleft { float:left; }
 .post_content .aligncenter { display:block; margin-left:auto; margin-right:auto; margin-bottom:7px; }
-.post_content blockquote.alignleft, .post_content img.alignleft { margin:7px 24px 7px 0; }
-.post_content .wp-caption.alignleft { margin:7px 14px 7px 0; }
-.post_content blockquote.alignright, .post_content img.alignright { margin:7px 0 7px 24px; }
-.post_content .wp-caption.alignright { margin:7px 0 7px 14px; }
-.post_content blockquote.aligncenter, .post_content img.aligncenter, .post_content .wp-caption.aligncenter { margin-top:7px; margin-bottom:7px; }
+.post_content blockquote.alignleft,   .post_content img.alignleft { margin:7px 24px 7px 0; }
+.post_content blockquote.alignright,  .post_content img.alignright { margin:7px 0 7px 24px; }
+.post_content blockquote.aligncenter, .post_content img.aligncenter, .post_content  { margin-top:7px; margin-bottom:7px; }
 
 
 /* text and headline */
@@ -850,12 +834,6 @@ a:hover { text-decoration:underline; }
 .post_content h4 { font-size:120%; }
 .post_content h5 { font-size:110%; }
 .post_content h6 { font-size:100%; }
-
-
-/* image */
-.post_content img[class*="align"], .post_content img[class*="wp-image-"], .post_content img[class*="attachment-"], .post_content img.size-full, .post_content img.size-large, .post_content .wp-post-image, .post_content img
- { height:auto; max-width:100%; }
-
 
 /* list */
 .post_content li, .post_content dt, .post_content dd { line-height:2.2; }
@@ -879,12 +857,6 @@ a:hover { text-decoration:underline; }
 .post_content blockquote:after { content: '"'; font-style:italic; font-size:30px; font-weight:normal; text-align:left; line-height:60px; width:30px; height:30px; position:absolute; bottom:7px; right:-2px; color:#5cbcd7; }
 .post_content blockquote cite { border-top:1px dotted #aaa; display:block; padding:20px 0 0 0; font-style:italic; text-align:right; font-size:90%; }
 
-/* captions */
-.post_content .wp-caption { margin-bottom:24px; background:#fff; border:1px solid #ccc; padding:5px; max-width:100%; -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; }
-.post_content .wp-caption-text { text-align:center; font-size:12px; font-style:italic; line-height:1.5; margin:9px auto; }
-.post_content .wp-caption img[class*="wp-image-"] { display:block; margin:0 auto; }
-
-
 /* gallery */
 .gallery { margin-bottom:20px; }
 .gallery a img { border: 0 !important; }
@@ -904,16 +876,6 @@ a:hover { text-decoration:underline; }
 .gallery-caption:before { content: ""; height:100%; min-height:49px; position:absolute; top:0; left:0; width:100%; }
 .gallery-item:hover .gallery-caption { opacity: 1; }
 .gallery-columns-7 .gallery-caption, .gallery-columns-8 .gallery-caption, .gallery-columns-9 .gallery-caption, .gallery-columns-10 .gallery-caption { display: none; }
-
-
-/* etc */
-.post_content .wp-smiley { border:0; margin-bottom:0; margin-top:0; padding:0; }
-.post_content address { margin:0 0 24px 0; line-height:2.2; }
-.post_content pre { border-left:5px solid #7fc120; font-size:12px; margin:0 0 27px 0; line-height:25px; background:url(img/common/pre.gif) repeat left top; padding:0 17px; overflow:auto; }
-.post_content .sticky { }
-.post_content .mejs-container { margin: 12px 0 25px; }
-
-
 
 
 /* ----------------------------------------------------------------------
