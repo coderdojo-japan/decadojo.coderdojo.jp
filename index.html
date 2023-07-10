@@ -25,7 +25,6 @@
     <!-- TODO: Not migrated yet from WordPress
     <link rel="pingback"     href="https://decadojo.coderdojo.jp/xmlrpc.php">
     <link rel="alternate"    type="application/rss+xml" title="DecaDojo - でかドージョー &raquo; フィード" href="https://decadojo.coderdojo.jp/feed/" />
-    <link rel="alternate"    type="application/rss+xml" title="DecaDojo - でかドージョー &raquo; コメントフィード" href="https://decadojo.coderdojo.jp/comments/feed/" />
     -->
 
     <script type="text/javascript">
@@ -62,7 +61,6 @@
 
     <script src="/js/jquery.easing.1.3.js" async></script>
     <script src="/js/jscript.js" async></script>
-    <script src="/js/comment.js" async></script>
 
     <link rel="stylesheet" media="screen and (max-width:1260px)" href="/responsive.css">
 
@@ -87,29 +85,20 @@
      .pc #index_dis .index_content_header3 .headline     { font-size:40px; }
      .pc #index_dis .index_content_header3 .desc         { font-size:15px; }
 
-     .pc #header, #bread_crumb, .pc #global_menu ul ul a, #index_dis_slider .link, #previous_next_post .label, #related_post .headline span, #comment_headline span, .side_headline span, .widget_search #search-btn input, .widget_search #searchsubmit, .side_widget.google_search #searchsubmit, .page_navi span.current
+     .pc #header, #bread_crumb, .pc #global_menu ul ul a, #index_dis_slider .link, #previous_next_post .label, #related_post .headline span, .side_headline span, .widget_search #search-btn input, .widget_search #searchsubmit, .side_widget.google_search #searchsubmit, .page_navi span.current
      { background-color:#222222; }
 
      .footer_menu li.no_link a { color:#222222; }
 
      .post_content a{ color:#2D8696; }
-     a:hover, #comment_header ul li a:hover, .pc #global_menu > ul > li.active > a, .pc #global_menu li.current-menu-item > a, .pc #global_menu > ul > li > a:hover, #header_logo .logo a:hover, #bread_crumb li.home a:hover:before, #bread_crumb li a:hover
+     a:hover, .pc #global_menu > ul > li.active > a, .pc #global_menu li.current-menu-item > a, .pc #global_menu > ul > li > a:hover, #header_logo .logo a:hover, #bread_crumb li.home a:hover:before, #bread_crumb li a:hover
      { color:#2D8696; }
 
      #global_menu ul ul a:hover, #return_top a:hover, .next_page_link a:hover, .page_navi a:hover, .collapse_category_list li a:hover .count, .index_box_list .link:hover, .index_content_header2 .link a:hover, #index_blog_list li .category a:hover, .slick-arrow:hover, #index_dis_slider .link:hover, #header_logo_index .link:hover,
      #previous_next_page a:hover, .page_navi p.back a:hover, #post_meta_top .category a:hover, .collapse_category_list li a:hover .count, .mobile #global_menu li a:hover,
      #wp-calendar td a:hover, #wp-calendar #prev a:hover, #wp-calendar #next a:hover, .widget_search #search-btn input:hover, .widget_search #searchsubmit:hover, .side_widget.google_search #searchsubmit:hover,
-     #submit_comment:hover, #comment_header ul li a:hover, #comment_header ul li.comment_switch_active a, #comment_header #comment_closed p, #post_pagination a:hover, #post_pagination p, a.menu_button:hover, .mobile .footer_menu a:hover, .mobile #footer_menu_bottom li a:hover, .post_content .bt_orion:hover
+      #post_pagination a:hover, #post_pagination p, a.menu_button:hover, .mobile .footer_menu a:hover, .mobile #footer_menu_bottom li a:hover, .post_content .bt_orion:hover
      { background-color:#2D8696; }
-
-     #comment_textarea textarea:focus, #guest_info input:focus, #comment_header ul li a:hover, #comment_header ul li.comment_switch_active a, #comment_header #comment_closed p
-     { border-color:#2D8696; }
-
-     #comment_header ul li.comment_switch_active a:after, #comment_header #comment_closed p:after
-     { border-color:#2D8696 transparent transparent transparent; }
-
-     .collapse_category_list li a:before
-     { border-color: transparent transparent transparent #2D8696; }
 
      #header_slider .link, #header_video .overlay, #header_youtube .overlay { background:rgba(0,0,0,0.1) url(/img/dot2.png); }
     </style>
@@ -315,10 +304,11 @@
             <div class="desc">
 	      <p>「でかドージョー」をやりたいと思った人が気軽に開催していただけるように、ルールは簡潔にしています。ルールはこれだけ！</p>
 	      <br>
-	      <ol style='list-style: decimal; padding-left: 30px;'>
-		<li>複数の CoderDojo が協力して、いつもより大きなドージョーを開催すること</li>
-		<li>主催は CoderDojo Zen で承認された「CoderDojo」であること</li>
-		<li>CoderDojo 憲章に則ること</li>
+	      <p><br>
+		1. 複数の CoderDojo が協力して、いつもより大きなドージョーを開催すること<br>
+		2. 主催は CoderDojo Zen で承認された「CoderDojo」であること<br>
+		3. CoderDojo 憲章に則ること<br>
+	      </p>
 	      </ol>
 	      <br>
 	      <p>これらを守る限り自由に「でかドージョー」を名乗ってください！</p>
@@ -366,7 +356,6 @@
       <a href="#main_contents"><span>PAGE TOP</span></a>
     </div>
     <!--
-    <script type='text/javascript' src='/js/comment-reply.min.js'></script>
     <script type='text/javascript' src='/js/wp-embed.min.js'></script>
     -->
   </body>

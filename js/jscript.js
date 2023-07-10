@@ -20,23 +20,6 @@ jQuery(document).ready(function($){
      $(this).removeClass("active");
   });
 
-  //comment tab
-  $("#trackback_switch").click(function(){
-    $("#comment_switch").removeClass("comment_switch_active");
-    $(this).addClass("comment_switch_active");
-    $("#comment_area").animate({opacity: 'hide'}, 0);
-    $("#trackback_area").animate({opacity: 'show'}, 1000);
-    return false;
-  });
-
-  $("#comment_switch").click(function(){
-    $("#trackback_switch").removeClass("comment_switch_active");
-    $(this).addClass("comment_switch_active");
-    $("#trackback_area").animate({opacity: 'hide'}, 0);
-    $("#comment_area").animate({opacity: 'show'}, 1000);
-    return false;
-  });
-
   //tab
   $('#single_tab li:first-child a').addClass('active');
   $("#single_tab_contents .single_tab_content:first").show();

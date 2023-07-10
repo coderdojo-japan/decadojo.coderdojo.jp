@@ -402,16 +402,6 @@ a.menu_button:hover:before, a.menu_button.active:before { color:#fff; }
 #single_share { margin:0 0 0px; }
 
 
-/* メタ情報 */
-#post_meta_bottom { margin:0 0 20px 0; background:none; padding:15px 0; }
-#post_meta_bottom li { display:block; margin:0 0 10px 0; border:none; font-size:12px; line-height:160%; }
-#post_meta_bottom li:last-child { border:none; margin:0; }
-#post_meta_bottom li.post_category:before { top:0px; left:0px; }
-#post_meta_bottom li.post_tag:before { top:2px; left:0px; }
-#post_meta_bottom li.post_author:before { top:0px; left:0px; }
-#post_meta_bottom li.post_comment:before { top:0px; left:0px; }
-
-
 /* 次の記事、前の記事 */
 #previous_next_post { margin:0 0 30px 0!important; display: flex; }
 .single-news #previous_next_post {}
@@ -483,45 +473,6 @@ a.menu_button:hover:before, a.menu_button.active:before { color:#fff; }
 #archive_header { margin:0 0 20px; }
 #archive_headline { font-size:24px; margin:0; }
 #category_desc { line-height:200%; margin-top:10px; }
-
-
-
-/* ----------------------------------------------------------------------
- コメント
----------------------------------------------------------------------- */
-#comments {}
-#comment_headline { margin:0 0 15px 0; border: none; font-weight:400; }
-#comment_headline span { display: block; padding: 0 20px; }
-#comment_area, #trackback_area { margin:15px 0px 0; }
-
-/* コメント・トラックバックのタブ */
-/*#comment_header { position:relative; margin:0 0 15px; }
-#comment_header ul { margin:0; }
-#comment_header ul li.comment_switch_active a:after, #comment_header #comment_closed p:after { display:none; }
-@media screen and (max-width:500px) {
-  #comment_header ul li { float:none; text-align:center; margin:0; width:100%; }
-}*/
-#comment_header { position:relative; margin:0 0 15px; }
-#comment_header ul { margin:0; }
-#comment_header ul li.comment_switch_active a:after, #comment_header #comment_closed p:after { display:none; }
-@media screen and (max-width:500px) {
-  #comment_header ul li { float:none; text-align:center; margin:0; width:100%; }
-}
-
-
-/*  コメントの基本部分 */
-.comment { padding:10px 10px 0; }
-.no_comment { padding:10px 0 20px; }
-
-/* コメントの情報部分 */
-.comment-meta-left { float:left; width:100%; }
-
-/* フォーム部分 */
-.comment_form_wrapper { border:1px solid #ccc; margin:0 0 0px; padding:15px; background:#fff; }
-
-/* ボタン */
-#submit_comment { font-size:12px; }
-
 
 
 /* ----------------------------------------------------------------------
