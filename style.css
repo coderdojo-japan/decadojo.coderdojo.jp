@@ -207,7 +207,7 @@ a:hover { text-decoration:underline; }
 /* アーカイブページのキャッチフレーズ */
 #dis_header_archive { text-align:center; margin:0 0 65px; }
 #dis_header_archive .headline { font-size:46px; margin:0 0 20px 0; }
-#dis_header_archive .desc { font-size:14px; line-height:240%; }
+#dis_header_archive .desc { font-size: 14px; line-height:240%; }
 
 
 /* 一覧 */
