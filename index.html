@@ -185,14 +185,14 @@
 
       <div id="index_content2">
 	<div class="index_content1">
-	  <div class="index_content_header3" style='margin-top: 70px;'>
+	  <div class="index_content_header3" style='margin-top: 70px; margin-bottom: 60px;'>
 	    <h3 class="headline rich_font">DecaDojo 開催例</h3>
           </div>
 
 	  {% for event in site.data.events %}
 	  {% assign index = forloop.index0 | modulo: 3 %}
 	  {% if index == 0 %}
-	  <div class='index_box_list clearfix'>
+	  <div class='index_box_list clearfix' style='padding-top: 0px;'>
 	  {% endif %}
 	    <div class='box clearfix'
 	     {% if index == 2 %}style='margin-bottom: 40px;'

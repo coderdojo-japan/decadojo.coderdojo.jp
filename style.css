@@ -347,7 +347,7 @@ a:hover { text-decoration:underline; }
 
 /* コンテンツ１ */
 .index_box_list {
-  padding:60px 0 65px 25px; display:flex; display: -webkit-flex;
+  padding: 0px 0 65px 25px; display:flex; display: -webkit-flex;
   justify-content: center;
   //align-items: center;
   display:-ms-flexbox; /*--- IE10 ---*/
