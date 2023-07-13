@@ -12,9 +12,7 @@
 [decadojo.coderdojo.jp](https://decadojo.coderdojo.jp/)
 
 # How to DecaDojo
-「でかドージョー」をやりたいと思った人が、気軽に開催していただけるように、ルールは簡潔にしています。
-
-ルールはこれだけ
+「でかドージョー」をやりたいと思った人が、気軽に開催していただけるように、ルールは簡潔にしています。ルールはこれだけ！
 
 1. 複数の [CoderDojo](https://coderdojo.jp/) が協力して、いつもより大きなドージョーを開催すること
 2. 主催は [CoderDojo Zen で承認](https://coderdojo.jp/kata#startup)された「CoderDojo」であること
