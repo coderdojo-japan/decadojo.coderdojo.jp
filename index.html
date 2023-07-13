@@ -166,7 +166,7 @@
       <div id="index_content1">
 	<div class="index_content1">
 	  <div class="index_content_header3" style='margin-top: 70px;'>
-	    <h3 class="headline rich_font">What’s DecaDojo?</h3>
+	    <h3 class="headline rich_font">DecaDojo とは？</h3>
             <div class="desc">
 	      <p>「でかドージョー」は、埼玉県所沢市で始まった、近隣のCoderDojoが集まって、プログラミングを楽しむお祭りです。</p>
 	      <br>
@@ -186,13 +186,19 @@
       <div id="index_content2">
 	<div class="index_content1">
 	  <div class="index_content_header3" style='margin-top: 70px;'>
-	    <h3 class="headline rich_font">Schedule &amp; Reports</h3>
+	    <h3 class="headline rich_font">DecaDojo 開催例</h3>
           </div>
 
-	  <div class="index_box_list clearfix">
-
-	    {% for event in site.data.events %}
-	    <div class="box clearfix">
+	  {% for event in site.data.events %}
+	  {% assign index = forloop.index0 | modulo: 3 %}
+	  {% if index == 0 %}
+	  <div class='index_box_list clearfix'>
+	  {% endif %}
+	    <div class='box clearfix'
+	     {% if index == 2 %}style='margin-bottom: 40px;'
+	     {% else %}         style='margin-bottom: 40px;'
+	     {% endif %}
+	    >
               <div class="image">
 		<a href="{{ event.url }}">
 		  <img src="/img/{{ event.img }}" title="DecaDojo @ {{ event.title }}" alt="DecaDojo @ {{ event.title }}" />
@@ -207,23 +213,25 @@
 		<a href="{{ event.url }}" class="link">詳細を見る</a>
 	      </div>
 	    </div>
-	    {% endfor %}
-
+	  {% if index == 2 %}
 	  </div><!-- END .index_box -->
+	  {% endif %}
+	  {% endfor %}
+	  
 	</div><!-- END .index_content1 -->
       </div><!-- END #index_content2 -->
 
       <div id="index_dis">
 	<div class="index_content1">
 	  <div class="index_content_header3">
-	    <h3 class="headline rich_font">How to DecaDojo</h3>
+	    <h3 class="headline rich_font">DecaDojo のルール</h3>
             <div class="desc">
 	      <p>「でかドージョー」をやりたいと思った人が気軽に開催していただけるように、ルールは簡潔にしています。ルールはこれだけ！</p>
 	      <br>
 	      <p>
-		1. 複数の CoderDojo が協力して、いつもより大きなドージョーを開催すること<br>
-		2. 主催は CoderDojo Zen で承認された「CoderDojo」であること<br>
-		3. CoderDojo 憲章に則ること<br>
+		1. 複数の <a href='https://coderdojo.jp/'>CoderDojo</a> が協力して、いつもより大きなドージョーを開催すること<br>
+		2. 主催は <a href='https://coderdojo.jp/kata#startup'>CoderDojo Zen で承認</a>された「CoderDojo」であること<br>
+		3. <a href='https://coderdojo.jp/charter'>CoderDojo 憲章</a>に則ること<br>
 	      </p>
 	      </ol>
 	      <br>
