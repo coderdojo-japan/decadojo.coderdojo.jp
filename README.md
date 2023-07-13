@@ -16,9 +16,9 @@
 
 ルールはこれだけ
 
-1. 複数の CoderDojo が協力して、いつもより大きなドージョーを開催すること
-2. 主催は CoderDojo Zen で承認された「CoderDojo」であること
-3. CoderDojo 憲章に則ること
+1. 複数の [CoderDojo](https://coderdojo.jp/) が協力して、いつもより大きなドージョーを開催すること
+2. 主催は [CoderDojo Zen で承認](https://coderdojo.jp/kata#startup)された「CoderDojo」であること
+3. [CoderDojo 憲章](https://coderdojo.jp/charter)に則ること
 
 これらを守る限り自由に「でかドージョー」を名乗ってください！
 
