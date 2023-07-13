@@ -208,7 +208,12 @@
               <div class="info">
 		<h4 class="headline rich_font">in {{ event.title }}</h4>
 		<div class="desc">
-		  <p>{{ event.description }}</p>
+		  <p>
+		    {{ event.description }}
+		    {% if event.tag %}
+		    （<a href='https://twitter.com/hashtag/{{ event.tag }}' style='color: #2D8696 !important;'>#{{ event.tag}}</a>）
+		    {% endif %}
+		  </p>
 		</div>
 		<a href="{{ event.url }}" class="link">詳細を見る</a>
 	      </div>
