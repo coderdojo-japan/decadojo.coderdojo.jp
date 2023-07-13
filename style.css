@@ -347,8 +347,7 @@ a:hover { text-decoration:underline; }
 
 /* コンテンツ１ */
 .index_box_list { padding:60px 0 65px 0; display:flex; display: -webkit-flex; display:-ms-flexbox;/*--- IE10 ---*/ }
-.index_box_list .box { width:360px; margin:0 60px 0 0; padding:0 0 75px 0; position:relative; }
-.index_box_list .box.box3 { margin:0; }
+.index_box_list .box { width:360px; margin:0 30px 0 30px; padding:0 0 75px 0; position:relative; }
 .index_box_list .image { width:100%; height:auto; display:block; margin:0 0 25px 0; overflow:hidden; }
 .index_box_list .image img {
   width:100%; height:auto; display:block;

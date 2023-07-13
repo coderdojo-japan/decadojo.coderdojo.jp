@@ -1,0 +1,20 @@
+---
+- url: https://peraichi.com/landing_pages/view/decadojosenboku
+  img: senboku.jpg
+  title: Senboku / 泉北
+  description: |
+    CoderDojo堺は2016年2月から活動を始めた、大阪府で2番目の道場。2017年は「泉北ニュータウンまちびらき50周年事業」とコラボレーションし、毎月1回 CoderDojo堺を開催。その集大成として12月に「でかドージョー」を実施することになりました。
+
+- url: https://peraichi.com/landing_pages/view/decadojoyokoze
+  img: yokoze.jpg
+  title: Yokoze / 横瀬
+  description: |
+    2017年11月、CoderDojo横瀬がオープン。そのオープン記念として「でかドージョー」の第2回目を開催。会場は廃校になった小学校で運営されているコワーキングスペース！学びの場としてこれ以上ない場所で開催されました。
+
+- url: https://peraichi.com/landing_pages/view/decadojo
+  img: tokorozawa.jpg
+  title: Tokorozawa / 所沢
+  description: |
+    所沢の「つくる、を楽しむ」をテーマとした「.Makeところざわ」というイベントの一環として実施。近隣のDojoと共同でおっきなDojoを開催したら、なんか楽しいんじゃないか、という漠然とした思いつきを、近隣のチャンピオンが受け入れてくれ、第１回目の開催となりました。
+
+

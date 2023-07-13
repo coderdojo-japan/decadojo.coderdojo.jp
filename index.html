@@ -1,3 +1,6 @@
+---
+---
+
 <!DOCTYPE html>
 <html class="pc" lang="ja">
   <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
@@ -187,67 +190,25 @@
           </div>
 
 	  <div class="index_box_list clearfix">
-	    <div class="box box1 clearfix">
+
+	    {% for event in site.data.events %}
+	    <div class="box clearfix">
               <div class="image">
-		<a href="https://peraichi.com/landing_pages/view/decadojosenboku">
-		  <img src="/img/senboku.jpg" title="DecaDojo Senboku" alt="DecaDojo Senboku" />
+		<a href="{{ event.url }}">
+		  <img src="/img/{{ event.img }}" title="DecaDojo @ {{ event.title }}" alt="DecaDojo @ {{ event.title }}" />
 		</a>
 	      </div>
 
               <div class="info">
-		<h4 class="headline rich_font">in Senboku / 泉北</h4>
+		<h4 class="headline rich_font">in {{ event.title }}</h4>
 		<div class="desc">
-		  <p>
-		    <!--
-			 場所：大阪府大阪狭山市
-			 日程：2017年12月３日（日）
-		    -->
-		    CoderDojo堺は2016年2月から活動を始めた、大阪府で2番目の道場。2017年は「泉北ニュータウンまちびらき50周年事業」とコラボレーションし、毎月1回 CoderDojo堺を開催。その集大成として12月に「でかドージョー」を実施することになりました。</p>
+		  <p>{{ event.description }}</p>
 		</div>
-		<a href="https://peraichi.com/landing_pages/view/decadojosenboku" class="link">詳細を見る</a>
+		<a href="{{ event.url }}" class="link">詳細を見る</a>
 	      </div>
 	    </div>
+	    {% endfor %}
 
-	    <div class="box box2 clearfix">
-              <div class="image">
-		<a href="https://peraichi.com/landing_pages/view/decadojoyokoze">
-		  <img src="/img/yokoze.jpg" title="DecaDojo Yokoze" alt="DecaDojo Yokoze" />
-		</a>
-	      </div>
-
-              <div class="info">
-		<h4 class="headline rich_font">in Yokoze / 横瀬</h4>
-		<div class="desc">
-		  <p>
-		    <!--
-		    場所：埼玉県秩父郡横瀬町
-		    日程：2017年11月4日（土）
-		    -->
-		    2017年11月、CoderDojo横瀬がオープン。そのオープン記念として「でかドージョー」の第2回目を開催。会場は廃校になった小学校で運営されているコワーキングスペース！学びの場としてこれ以上ない場所で開催されました。</p>
-		</div>
-		<a href="https://peraichi.com/landing_pages/view/decadojoyokoze" class="link">詳細を見る</a>
-	      </div>
-	    </div>
-
-	    <div class="box box3 clearfix">
-              <div class="image">
-		<a href="https://peraichi.com/landing_pages/view/decadojo">
-		  <img src="/img/tokorozawa.jpg" title="DecaDojo Tokorozawa" alt="DecaDojo Tokorozawa" />
-		</a>
-	      </div>
-
-              <div class="info">
-		<h4 class="headline rich_font">in Tokorozawa / 所沢</h4>
-		<div class="desc">
-		  <p>
-		    <!--
-		    場所：埼玉県所沢市
-		    日程：2017年5月7日（日）
-		    -->
-		    所沢の「つくる、を楽しむ」をテーマとした「.Makeところざわ」というイベントの一環として実施。近隣のDojoと共同でおっきなDojoを開催したら、なんか楽しいんじゃないか、という漠然とした思いつきを、近隣のチャンピオンが受け入れてくれ、第１回目の開催となりました。</p>
-		</div>
-		<a href="https://peraichi.com/landing_pages/view/decadojo" class="link">詳細を見る</a>    </div>
-	    </div>
 	  </div><!-- END .index_box -->
 	</div><!-- END .index_content1 -->
       </div><!-- END #index_content2 -->
