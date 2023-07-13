@@ -139,7 +139,6 @@ body { min-width:0; }
   .index_box_list .image { width:100%; float:none; margin:0 0 30px 0; }
   .index_box_list .info { width:100%; float:none; padding:0; position:relative;  }
   .index_box_list .link { margin:0 auto 30px; }
-  .index_box_list .box3 .link { margin-bottom:0; }
   .index_box_list .desc { font-size:14px; }
 }
 
