@@ -372,6 +372,8 @@ a:hover { text-decoration:underline; }
 }
 .index_box_list .headline { font-size:36px; margin:0 0 10px 0; font-weight:400; color:#000; }
 .index_box_list .desc { font-size:14px; margin:0; line-height:250%; }
+.index_box_list .desc a        { color: #2D8696 }
+.index_content_header3 .desc a { color: #2D8696 }
 .index_box_list .link { background:#777; color:#fff; text-decoration:none; display:block; margin:0 auto; width:180px; height:50px; line-height:50px; text-align:center; font-size:14px; position:absolute; right:0; left:0; bottom:0; }
 .index_box_list .link:after {
   font-family:'design_plus'; content:'\e910'; font-size:17px; color:#fff; display:inline-block; padding-left:10px; position:relative; top:2px;

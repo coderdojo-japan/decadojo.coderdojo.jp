@@ -168,9 +168,9 @@
 	  <div class="index_content_header3" style='margin-top: 70px;'>
 	    <h3 class="headline rich_font">DecaDojo とは？</h3>
             <div class="desc">
-	      <p>「でかドージョー」は、埼玉県所沢市で始まった、近隣の <a href='https://coderdojo.jp/' style='color: #2D8696'>CoderDojo</a> が集まって、プログラミングを楽しむお祭りです。</p>
+	      <p>「でかドージョー」は、埼玉県所沢市で始まった、近隣の <a href='https://coderdojo.jp/'>CoderDojo</a> が集まってプログラミングを楽しむお祭りです。</p>
 	      <br>
-	      <p>でか（Deca）は、日本語で「大きい」を意味する「でかい」と、10倍を表す単位 [deca] をかけてます。( ｰ`дｰ´)ｷﾘｯ</p>
+	      <p>でか（Deca）は日本語で「大きい」を意味する「でかい」と、10倍を表す単位 [deca] をかけてます。( ｰ`дｰ´)ｷﾘｯ</p>
 	      <br>
 	      <p>いつもと違う大きな会場で、みどころ10倍！楽しさ10倍！<br />
 		ニンジャのみんなの参加まってるよ！</p>
@@ -209,10 +209,7 @@
 		<h4 class="headline rich_font">in {{ event.title }}</h4>
 		<div class="desc">
 		  <p>
-		    {{ event.description }}
-		    {% if event.tag %}
-		    （<a href='https://twitter.com/hashtag/{{ event.tag }}' style='color: #2D8696'>#{{ event.tag}}</a>）
-		    {% endif %}
+		    {{ event.description | markdownify }}
 		  </p>
 		</div>
 		<a href="{{ event.url }}" class="link">詳細を見る</a>
@@ -234,9 +231,9 @@
 	      <p>「でかドージョー」をやりたいと思った人が気軽に開催していただけるように、ルールは簡潔にしています。ルールはこれだけ！</p>
 	      <br>
 	      <p>
-		1. 複数の <a href='https://coderdojo.jp/' style='color: #2D8696'>CoderDojo</a> が協力して、いつもより大きなドージョーを開催すること<br>
-		2. 主催は <a href='https://coderdojo.jp/kata#startup' style='color: #2D8696'>CoderDojo Zen で承認</a>された「CoderDojo」であること<br>
-		3. <a href='https://coderdojo.jp/charter' style='color: #2D8696'>CoderDojo 憲章</a>に則ること<br>
+		1. 複数の <a href='https://coderdojo.jp/'>CoderDojo</a> が協力して、いつもより大きなドージョーを開催すること<br>
+		2. 主催は <a href='https://coderdojo.jp/kata#startup'>CoderDojo Zen で承認</a>された「CoderDojo」であること<br>
+		3. <a href='https://coderdojo.jp/charter'>CoderDojo 憲章</a>に則ること<br>
 	      </p>
 	      </ol>
 	      <br>
