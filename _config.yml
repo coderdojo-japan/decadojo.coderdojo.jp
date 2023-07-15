@@ -11,14 +11,14 @@ theme: minima
 plugins:
   - jekyll-feed
 
-#exclude:
-#  - .sass-cache/
-#  - .jekyll-cache/
-#  - gemfiles/
-#  - Gemfile
-#  - Gemfile.lock
-#  - node_modules/
-#  - vendor/bundle/
-#  - vendor/cache/
-#  - vendor/gems/
-#  - vendor/ruby/
+# Feed settings: https://github.com/jekyll/jekyll-feed
+feed:
+  path: /feed.xml
+  posts_limit: 1000
+
+exclude:
+  - Rakefile
+
+sass:
+  style:     compressed
+  sourcemap: always
