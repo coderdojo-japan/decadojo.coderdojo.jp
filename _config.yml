@@ -1,8 +1,8 @@
 title: 'DecaDojo - でかドージョー | プログラミングであそぼう！'
 description: >-
   『でかドージョー』は近隣の CoderDojo が集まってプログラミングを楽しむお祭りです。
-baseurl: '' # the subpath of your site, e.g. /blog
-url:     '' # the base hostname & protocol for your site, e.g. http://example.com
+url:     'https://decadojo.coderdojo.jp'
+baseurl: '/' # the subpath of your site, e.g. /blog
 twitter_username: CoderDojoJapan
 github_username:  coderdojo-japan
 

@@ -5,58 +5,57 @@
 - url: https://decadojo.fukushima-coderdojo.com/
   img: fukushima.jpg
   title: 福島 @ 会津大学
-  description: |
+  description: >-
     福島県内のCoderDojoが集まって、プログラミングを楽しむお祭りです。2023年6月18日（日）福島県会津若松市 会津大学で「福島でかドージョー2023（会津大学 開学30周年記念イベント）」開催！（[#福島でかドージョー2023](https://twitter.com/hashtag/#福島でかドージョー2023)）
 
 # 2020
 - url: https://coderdojo-hamamatsu.connpass.com/event/177416/
   img: suruga.jpg
   title: すんえんず (静岡)
-  description: |
+  description: >-
     駿河と遠江と伊豆をまとめて呼ぶとき「駿遠豆（すんえんず）」と呼ぶそうです。静岡県内各地のCoderDojo関係者と交流を持ちたいということもあり、でかドージョー in すんえんず2020として開催。
 
 # 2019
 - url: https://coderdojo-nagatsuta.github.io/reports/2019-03-31-decadojo-yokohama-2nd/
   img: yokohama.jpg
   title: 横浜 (神奈川)
-  description: |
+  description: >-
     戸部、長津田、新羽、藤沢、保土ヶ谷、横浜の６ドージョーが協力して、いつもより大きなドージョーを開催！いつものDojoと大きくは変わりませんが、テーマを設けたいくつかの島を作り、興味のある島で学び（遊び）ましょう。（[参加者のブログ記事](https://www.yokoyan.net/entry/2018/07/27/181500) / [運営者の発表資料](https://speakerdeck.com/uebo/dekadoziyo-in-heng-bang-vol-dot-2wokai-cui-sitatokifalsequ-rizu-mi-dojocon-japan-2019)）
 
 - url: http://www.coderdojo-urasoe.com/?p=1188
   img: okinawa.jpg
   title: 沖縄 @ 浦添市
-  description: |
+  description: >-
     浦添プログラミング道場の子供たちの成果発表と、沖縄県内の子供たちへ、同年代で活躍するクリエイターとの交流や、様々な技術を体験する機会を提供。各道場のブースでは実際にプログラミングやモノづくりを体験!!
 
 # 2018
 - url: https://peraichi.com/landing_pages/view/0vsas
   img: default.png
   title: 東京 @ サイボウズ
-  description: |
+  description: >-
     いつもの１０倍（Deca）の CoderDojo で新しい出会いを！いつもと違う大きな会場で、みどころ10倍！楽しさ10倍！他のDojoのメンター、ニンジャと楽しくやるよ！
 
 - url: https://coderdojotachikawa.tamaliver.jp/e453000.html
   img: tama.jpg
   title: 多摩地域 (東京)
-  description: |
+  description: >-
     多摩地域だけでも８か所となり、開催している道場が増えてきました。そこで、各地の道場が集結していつもよりちょっとでかいドージョーを開催することになりました。でかドージョーに参加して、いろんなドージョーの人とつながろう！
 
 # 2017
 - url: https://peraichi.com/landing_pages/view/decadojosenboku
   img: senboku.jpg
   title: 泉北 (大阪)
-  description: |
+  description: >-
     CoderDojo堺は2016年2月から活動を始めた、大阪府で2番目の道場。2017年は「泉北ニュータウンまちびらき50周年事業」とコラボレーションし、毎月1回 CoderDojo堺を開催。その集大成として12月に「でかドージョー」を実施することになりました。
 
 - url: https://peraichi.com/landing_pages/view/decadojoyokoze
   img: yokoze.jpg
   title: 横瀬 (埼玉)
-  description: |
+  description: >-
     2017年11月、CoderDojo横瀬がオープン。そのオープン記念として「でかドージョー」の第2回目を開催。会場は廃校になった小学校で運営されているコワーキングスペース！学びの場としてこれ以上ない場所で開催されました。
 
 - url: https://peraichi.com/landing_pages/view/decadojo
   img: tokorozawa.jpg
   title: 所沢 (埼玉)
-  description: |
+  description: >-
     所沢の「つくる、を楽しむ」をテーマとした「.Makeところざわ」というイベントの一環として実施。近隣のDojoと共同でおっきなDojoを開催したらなんか楽しいんじゃないかという思いつきを、近隣のチャンピオンが受け入れてくれ、第１回目の開催となりました。
-
