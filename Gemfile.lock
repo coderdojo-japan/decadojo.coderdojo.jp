@@ -119,7 +119,7 @@ DEPENDENCIES
   html-proofer
   jekyll (~> 4.1.1)
   jekyll-feed
-  minima (~> 2.5)
+  minima
   rake
   webrick
 
