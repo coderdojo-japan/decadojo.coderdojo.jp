@@ -2,6 +2,21 @@
 
 body { min-width:0; }
 
+/* 改行位置の調整 */
+.ignore-pc {
+  display: none;
+}
+.ignore-sp {
+  display: inline;
+}
+@media screen and (max-width: 550px) {
+  .ignore-pc {
+    display: inline;
+  }
+  .ignore-sp {
+    display: none;
+  }
+}
 
 /* レイアウト */
 #global_menu_wrap {
