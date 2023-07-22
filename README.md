@@ -22,7 +22,7 @@
 
 <br>
 
-## :white_check_mark: （共通）ブラウザで情報修正を提案できます
+## :white_check_mark: ブラウザで情報修正を提案できます
 
 情報を更新したい場合は **Webブラウザが一番簡単** だと思います...!! 😆
 
@@ -37,7 +37,7 @@
 
 ## :up: DecaDojo 情報の更新方法
 
-[`_data`](https://github.com/coderdojo-japan/decadojo/tree/main/_data) 内に `events.yaml` という YAML ファイルがあり、この YAML ファイルを修正すると情報を更新できます。
+[`_data`](https://github.com/coderdojo-japan/decadojo/tree/main/_data) ディレクトリ内に `events.yml` という YAML ファイルがあり、この YAML ファイルを修正すると情報を更新できます。
 
 [`_data/events.yml`](https://github.com/coderdojo-japan/decadojo/blob/main/_data/events.yml) ファイルの内容は以下の通りです。
 
@@ -56,7 +56,7 @@
     福島県内のCoderDojoが集まって、プログラミングを楽しむお祭りです。2023年6月18日（日）福島県会津若松市 会津大学で「福島でかドージョー2023（会津大学 開学30周年記念イベント）」開催！（[#福島でかドージョー2023](https://twitter.com/hashtag/福島でかドージョー2023) / [アンケート結果・ダイジェスト動画](https://coderdojoshirakawa.hateblo.jp/entry/2023/07/18/201720)）
 ```
 
-\[[`_data/events.yml` ファイルを見る](https://github.com/coderdojo-japan/dojocon2023.coderdojo.jp/blob/main/_data/events.yml)\]
+\[[`_data/events.yml` ファイルを見る](https://github.com/coderdojo-japan/decadojo/blob/main/_data/events.yml)\]
 
 <br>
 
