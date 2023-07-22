@@ -9,7 +9,9 @@
 いつもと違う大きな会場で、みどころ10倍！楽しさ10倍！   
 ニンジャのみんなの参加まってるよ！
 
-[decadojo.coderdojo.jp](https://decadojo.coderdojo.jp/)
+\[[Webサイトを見る](https://decadojo.coderdojo.jp/)\]
+
+<br>
 
 # :beginner: How to DecaDojo
 「でかドージョー」をやりたいと思った人が、気軽に開催していただけるように、ルールは簡潔にしています。ルールはこれだけ！
