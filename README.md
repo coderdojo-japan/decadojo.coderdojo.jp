@@ -75,6 +75,6 @@
 
 -----
 
-Copyright ©  DecaDojo – でかドージョー
+Copyright ©  DecaDojo – でかドージョー & 一般社団法人 CoderDojo Japan ([@coderdojo-japan](https://github.com/coderdojo-japan)).
 
 _(NOTE: This repo is being migrated into GitHub with approval from the website owner, Takuma Tsuneda.)_
