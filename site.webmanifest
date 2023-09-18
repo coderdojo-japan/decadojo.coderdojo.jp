@@ -1,6 +1,9 @@
+---
+---
+
 {
-  "name":       "DecaDojo",
-  "short_name": "DecaDojo",
+  "name":       "{{ site.title_short }}",
+  "short_name": "{{ site.title_short }}",
   "icons": [
     {
       "src":   "/img/android-chrome-192x192.png",
