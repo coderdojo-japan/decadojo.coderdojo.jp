@@ -97,26 +97,20 @@
     <script src="/js/jquery.mb.YTPlayer.min.js"></script>
     <script type="text/javascript">
      jQuery(document).ready(function($) {
-       jQuery("#youtube_video_player").YTPlayer();
-     });
-    </script>
+       $("#youtube_video_player").YTPlayer();
 
-    <script type="text/javascript">
-       jQuery(document).ready(function($) {
-
-         $("a").bind("focus",function(){if(this.blur)this.blur();});
-
-         $('#return_top a, #header_logo_index a').click(function() {
+       $("a").bind("focus",function(){ if(this.blur) this.blur(); });
+       $('#return_top a, #header_logo_index a').click(function() {
   	 var myHref= $(this).attr("href");
-           var myPos = $(myHref).offset().top;
-           $("html,body").animate({scrollTop : myPos}, 1000, 'easeOutExpo');
+         var myPos = $(myHref).offset().top;
+         $("html,body").animate({scrollTop : myPos}, 1000, 'easeOutExpo');
   	 return false;
-         });
-
-         $(window).load(function() {
-  	 $('#header_image .title').delay(1000).fadeIn(3000);
-         });
        });
+       
+       $(window).load(function() {
+  	 $('#header_image .title').delay(1000).fadeIn(3000);
+       });
+     });
     </script>
 
     <!-- Settings for Favicon images -->
