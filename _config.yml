@@ -21,6 +21,10 @@ feed:
   posts_limit: 1000
 
 exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - Gemfile
+  - Gemfile.lock
   - Rakefile
 
 sass:
