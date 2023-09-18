@@ -1229,22 +1229,6 @@ Table responsive - テーブルのレスポンシブ表示
 /* ----------------------------------------------------------------------
  font-size - フォントサイズ
 ---------------------------------------------------------------------- */
-.text70{font-size:70%}      /* フォントサイズ70% */
-.text80{font-size:80%}
-.text90{font-size:90%}
-.text100{font-size:100%}
-.text110{font-size:110%}
-.text120{font-size:120%}
-.text130{font-size:130%}
-.text140{font-size:140%}
-.text150{font-size:150%}
-.text160{font-size:160%}
-.text170{font-size:170%}
-.text180{font-size:180%}
-.text190{font-size:190%}
-.text200{font-size:200%}
-.text210{font-size:210%}
-.text220{font-size:220%}
 .b{font-weight:700}     /* 太字 */
 .u{text-decoration:underline}     /* 下線 */
 .del{text-decoration:line-through} /* 打ち消し線 */
