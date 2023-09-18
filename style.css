@@ -529,8 +529,8 @@ a:hover { text-decoration:underline; }
 }
 #footer_social_link li.facebook:before { content:'\e902'; }
 #footer_social_link li.twitter:before  { content:'\e904'; }
-#footer_social_link li.youtube:before  { content:'\ea9e'; }
-#footer_social_link li.youtube2:before { content:'\f167'; }
+#footer_social_link li.youtube:before  { content:'\f167'; }
+#footer_social_link li.youtube2:before { content:'\ea9e'; }
 #footer_social_link li.github:before   { content:'\e90c'; }
 #footer_social_link li.rss:before      { content:'\e90b'; }
 #footer_social_link li.insta:before    { content:'\ea92'; top:11px; }
