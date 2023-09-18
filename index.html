@@ -9,25 +9,22 @@
     <meta charset="UTF-8">
     <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
     <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
-    <title>DecaDojo - でかドージョー | プログラミングであそぼう！</title>
-    <meta name="description"        content="『でかドージョー』は近隣の CoderDojo が集まってプログラミングを楽しむお祭りです。">
-    <meta property="og:type"        content="article" />
-    <meta property="og:url"         content="https://decadojo.coderdojo.jp/">
-    <meta property="og:title"       content="DecaDojo - でかドージョー" />
-    <meta property="og:description" content="『でかドージョー』は近隣の CoderDojo が集まってプログラミングを楽しむお祭りです。" />
-    <meta property="og:site_name"   content="DecaDojo - でかドージョー" />
-    <meta property="og:image"            content='https://decadojo.coderdojo.jp/img/ogp-decadojo.jpg'>
-    <meta property="og:image:secure_url" content='https://decadojo.coderdojo.jp/img/ogp-decadojo.jpg'>
-    <meta property="og:image:width"  content="1200" />
-    <meta property="og:image:height" content="630" />
-    <!--<meta property="fb:admins"   content="359616091164140" />-->
+
+    <title>{{ site.title_long }}</title>
+    <meta name="description"         content="{{ site.description }}">
+    <meta property="og:type"         content="website" />
+    <meta property="og:site_name"    content="{{ site.title }}" />
+    <meta property="og:title"        content="{{ site.title }}" />
+    <meta property="og:description"  content="{{ site.description }}" />
+    <meta property="og:url"          content="{{ site.url }}">
+    <meta property="og:image"        content="{{ site.url }}/img/cover.jpg">
     <meta property="fb:admins"       content="715330868" />
     <meta property="fb:app_id"       content="805184859580207" />
 
-    <link rel='stylesheet' id='style-css' href='/style.css' type='text/css' media='all' />
-    <link rel='canonical'   href='https://decadojo.coderdojo.jp/' />
-    <link rel='shortlink'   href='https://decadojo.coderdojo.jp/' />
-    <link rel='stylesheet'  href='/responsive.css' media='screen and (max-width:1260px)'>
+    <link rel='stylesheet' href='/style.css'      media='all' type='text/css' id='style-css' />
+    <link rel='stylesheet' href='/responsive.css' media='screen and (max-width:1260px)'>
+    <link rel='canonical'  href='{{ site.url }}' />
+    <link rel='shortlink'  href='{{ site.url }}' />
 
     <script type='text/javascript' src='/js/jquery.js'></script>
     <script type='text/javascript' src='/js/jquery-migrate.min.js'></script>
@@ -36,30 +33,29 @@
     <script src="https://kit.fontawesome.com/82f32b9df5.js" crossorigin="anonymous"></script>
 
     <style type="text/css">
-     body, input, textarea { font-family: Verdana, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif; }
-     .rich_font { font-family: "Times New Roman" , "游明朝" , "Yu Mincho" , "游明朝体" , "YuMincho" , "ヒラギノ明朝 Pro W3" , "Hiragino Mincho Pro" , "HiraMinProN-W3" , "HGS明朝E" , "ＭＳ Ｐ明朝" , "MS PMincho" , serif; font-weight:400; }
+      body { font-size: 15px; }
+      body, input, textarea { font-family: Verdana, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif; }
+      .rich_font { font-family: "Times New Roman" , "游明朝" , "Yu Mincho" , "游明朝体" , "YuMincho" , "ヒラギノ明朝 Pro W3" , "Hiragino Mincho Pro" , "HiraMinProN-W3" , "HGS明朝E" , "ＭＳ Ｐ明朝" , "MS PMincho" , serif; font-weight:400; }
 
-     body { font-size: 15px; }
+      .pc #header .logo        { font-size:21px; }
+      .mobile #header .logo    { font-size:18px; }
+      #header_logo_index .logo { font-size:40px; }
+      #footer_logo_index .logo { font-size:40px; }
+      #header_logo_index .desc { font-size:12px; }
+      #footer_logo .desc       { font-size:12px; }
+      .pc #index_content1 .index_content_header .headline  { font-size:40px; }
+      .pc #index_content1 .index_content_header .desc      { font-size:15px; }
+      .pc #index_content2 .index_content_header .headline  { font-size:40px; }
+      .pc #index_content2 .index_content_header .desc      { font-size:15px; }
+      .pc #index_dis      .index_content_header .headline  { font-size:40px; }
+      .pc #index_dis      .index_content_header .desc      { font-size:15px; }
+      .pc #index_dis      .index_content_header3 .headline { font-size:40px; }
+      .pc #index_dis      .index_content_header3 .desc     { font-size:15px; }
 
-     .pc #header .logo        { font-size:21px; }
-     .mobile #header .logo    { font-size:18px; }
-     #header_logo_index .logo { font-size:40px; }
-     #footer_logo_index .logo { font-size:40px; }
-     #header_logo_index .desc { font-size:12px; }
-     #footer_logo .desc       { font-size:12px; }
-     .pc #index_content1 .index_content_header .headline { font-size:40px; }
-     .pc #index_content1 .index_content_header .desc     { font-size:15px; }
-     .pc #index_content2 .index_content_header .headline { font-size:40px; }
-     .pc #index_content2 .index_content_header .desc     { font-size:15px; }
-     .pc #index_dis .index_content_header .headline      { font-size:40px; }
-     .pc #index_dis .index_content_header .desc          { font-size:15px; }
-     .pc #index_dis .index_content_header3 .headline     { font-size:40px; }
-     .pc #index_dis .index_content_header3 .desc         { font-size:15px; }
+      .post_content a{ color:#2D8696; }
+      a:hover, .pc #global_menu > ul > li.active > a, .pc #global_menu li.current-menu-item > a, .pc #global_menu > ul > li > a:hover, #header_logo .logo a:hover, #bread_crumb li.home a:hover:before, #bread_crumb li a:hover { color:#2D8696; }
 
-     .post_content a{ color:#2D8696; }
-     a:hover, .pc #global_menu > ul > li.active > a, .pc #global_menu li.current-menu-item > a, .pc #global_menu > ul > li > a:hover, #header_logo .logo a:hover, #bread_crumb li.home a:hover:before, #bread_crumb li a:hover { color:#2D8696; }
-
-     #header_slider .link, #header_video .overlay, #header_youtube .overlay { background:rgba(0,0,0,0.1) url(/img/dot2.png); }
+      #header_slider .link, #header_video .overlay, #header_youtube .overlay { background:rgba(0,0,0,0.1) url(/img/dot2.png); }
     </style>
 
     <link rel="stylesheet" href="/js/slick.css">
@@ -109,7 +105,6 @@
        jQuery(document).ready(function($) {
 
          $("a").bind("focus",function(){if(this.blur)this.blur();});
-         $("a.target_blank").attr("target","_blank");
 
          $('#return_top a, #header_logo_index a').click(function() {
   	 var myHref= $(this).attr("href");
@@ -130,7 +125,7 @@
     <link rel="icon" type="image/png" sizes="192x192" href="/img/favicon-192x192.png">
     <link rel="apple-touch-icon" sizes="180x180"      href="/img/apple-touch-icon.png">
     <link rel="mask-icon"        color="#e2a03a"      href="/img/safari-pinned-tab.svg">
-    <link rel="manifest" href="/site.webmanifest">
+    <link rel="manifest"                              href="/site.webmanifest">
     <meta name="msapplication-TileColor" content="#ffc40d">
     <meta name="theme-color"             content="#ffffff">
   </head>
@@ -140,7 +135,7 @@
       <!--<div id="header"></div>-->
       <div id="header_logo_index">
         <div class="logo_area">
-          <p class="logo"><img src="/img/decadojo-logo.png" alt="DecaDojo - でかドージョー" title="DecaDojo - でかドージョー" /></p>
+          <p class="logo"><img src="/img/logo.png" alt="{{ site.title }}" title="{{ site.title }}" width="300px" /></p>
         </div>
         <a href="#index_content1" class="link"><span>Start content</span></a>
       </div>
@@ -157,13 +152,14 @@
 	  <div id="header_logo">
 	    <div id="logo_image">
 	      <h1 class="logo">
-		<a href="/" title="DecaDojo - でかドージョー" data-label=""><img src="/img/decadojo-logo.png" alt="DecaDojo - でかドージョー" title="DecaDojo - でかドージョー" /></a>
+		<a href="/" title="{{ site.title }}">
+		  <img src="/img/logo.png" alt="{{ site.title }}" title="{{ site.title }}" width="300px" />
+		</a>
 	      </h1>
 	    </div>
 	  </div>
 	</div>
       </div>
-
     </div><!-- END #top -->
     
     <div id="main_contents" class="clearfix">
@@ -230,12 +226,12 @@
 	  <div class="index_content_header3" style='text-align:center; margin-bottom: 60px;'>
 	    <h3 class="headline">
 	      <div class="desc" style='text-align:center; font-size: 20px;'>
-		<a href='https://www.youtube.com/results?search_query=%E3%81%A7%E3%81%8B%E3%83%89%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%BC' class='link' style='font-size: 19px;'>
+		<a href='{{ site.link_to_youtube }}' class='link' style='font-size: 19px;'>
 		  <i class='fa-brands fa-youtube'></i>
 		  YouTube の関連動画を見る
 		</a>
 		<br>
-		<a href='https://twitter.com/search?q=DecaDojo+OR+%E3%81%A7%E3%81%8B%E3%83%89%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%BC' class='link'>
+		<a href='{{ site.link_to_twitter }}' class='link'>
 		  <i class='fa-brands fa-twitter'></i>
 		  Twitter の関連投稿を見る
 		</a>
@@ -273,7 +269,9 @@
 	  <!-- footer logo -->
 	  <div id="footer_logo">
 	    <div class="logo_area">
-	      <p class="logo"><a href="/" title="DecaDojo - でかドージョー"><img src="/img/decadojo-logo.png" alt="DecaDojo - でかドージョー" title="DecaDojo - でかドージョー" /></a></p>
+	      <p class="logo"><a href="/" title="{{ site.title }}">
+		<img src="/img/logo.png" alt="{{ site.title }}" title="{{ site.title }}" width="300px" />
+	      </a></p>
 	    </div>
 	  </div>
 
@@ -287,20 +285,20 @@
 	  <!-- footer logo -->
 	  <!-- social button -->
 	  <ul class="clearfix" id="footer_social_link">
-            <li class="facebook"><a class="target_blank" href="https://www.facebook.com/DecaDojo/" rel="noopener">Facebook</a></li>
-            <li class="twitter"><a class="target_blank" href="https://twitter.com/search?q=DecaDojo+OR+%E3%81%A7%E3%81%8B%E3%83%89%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%BC" rel="noopener">Twitter</a></li>
-	    <li class="github"><a class="target_blank" href="https://github.com/coderdojo-japan/decadojo" rel="noopener">GitHub</a></li>
+            <li class="facebook"><a href="{{ site.link_to_facebook }}">Facebook</a></li>
+            <li class="twitter"><a  href="{{ site.link_to_twitter  }}">Twitter</a></li>
+	    <li class="github"><a   href="{{ site.link_to_github   }}">GitHub</a></li>
 	  </ul>
 
 	  <!-- footer bottom menu -->
 	  <p style='color: grey; margin-top: 20px; font-size: 9px; text-align: center;'>
-	    各サムネイル画像は、それぞれの運営チームまたは運営メンバーの著作物となります。
+	    各サムネイル画像は、それぞれの実行委員会の著作物となります。
 	  </p>
 	</div><!-- END #footer_bottom_inner -->
       </div><!-- END #footer_bottom -->
 
       <p id="copyright">
-	Copyright &copy; <a href="/">DecaDojo</a> & <a href="https://coderdojo.jp/">CoderDojo Japan</a>
+	Copyright &copy; DecaDojo & <a href="https://coderdojo.jp/">CoderDojo Japan</a>
       </p>
     </div><!-- /footer_wrapper -->
 

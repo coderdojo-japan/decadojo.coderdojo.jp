@@ -1,10 +1,14 @@
-title: 'DecaDojo - でかドージョー | プログラミングであそぼう！'
-description: >-
-  『でかドージョー』は近隣の CoderDojo が集まってプログラミングを楽しむお祭りです。
+title:       DecaDojo - でかドージョー
+title_long:  DecaDojo - でかドージョー | プログラミングであそぼう！
+description: DecaDojo (でかドージョー) は近隣の CoderDojo が集まってプログラミングを楽しむお祭りです。
 url:     'https://decadojo.coderdojo.jp'
 baseurl: '/' # the subpath of your site, e.g. /blog
-twitter_username: CoderDojoJapan
-github_username:  coderdojo-japan
+link_to_twitter:  https://twitter.com/search?q=DecaDojo+OR+でかドージョー
+link_to_youtube:  https://youtube.com/results?search_query=でかドージョー
+link_to_facebook: https://facebook.com/DecaDojo
+link_to_github:   https://github.com/coderdojo-japan/decadojo
+copyright: >-
+  DecaDojo & CoderDojo Japan
 
 # Build settings
 plugins:
