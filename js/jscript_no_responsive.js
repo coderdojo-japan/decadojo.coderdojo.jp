@@ -1,7 +1,6 @@
 jQuery(document).ready(function($){
 
   $("a").bind("focus",function(){if(this.blur)this.blur();});
-  $("a.target_blank").attr("target","_blank");
 
   $('#return_top a, #header_logo_index a').click(function() {
     var myHref= $(this).attr("href");

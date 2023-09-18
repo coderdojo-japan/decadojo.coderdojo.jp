@@ -71,7 +71,7 @@
 - 利用規約: [https://design-plus1.com/tcd-w/license_standard](https://design-plus1.com/tcd-w/license_standard)
 - 購入記録: [coderdojo-japan/decadojo/img/orion_purchase_license.png](https://github.com/coderdojo-japan/decadojo/blob/main/img/orion_purchase_license.png)
 
-各サムネイル画像は、各 DecaDojo の運営チームまたは運営メンバーの著作物となります。
+各サムネイル画像は、それぞれの実行委員会の著作物となります。
 
 -----
 
