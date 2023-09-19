@@ -194,11 +194,7 @@
 	  {% if index == 0 %}
 	  <div class='index_box_list clearfix' style='padding-top: 0px;'>
 	  {% endif %}
-	    <div class='box clearfix'
-	     {% if index == 2 %}style='margin-bottom: 40px;'
-	     {% else %}         style='margin-bottom: 40px;'
-	     {% endif %}
-	    >
+	    <div class='box clearfix'>
               <div class="image">
 		<a href="{{ event.url }}">
 		  <img src="/img/events/{{ event.img }}" title="DecaDojo @ {{ event.title }}" alt="DecaDojo @ {{ event.title }}" />
@@ -215,7 +211,7 @@
 		<a href="{{ event.url }}" class="link">詳細を見る</a>
 	      </div>
 	    </div>
-	  {% if index == 2 %}
+	  {% if forloop.last or index == 2 %}
 	  </div><!-- END .index_box -->
 	  {% endif %}
 	  {% endfor %}
