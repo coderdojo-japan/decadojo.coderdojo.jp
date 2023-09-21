@@ -50,7 +50,7 @@
 #   img: サムネイル画像のファイル名 (画像は `img/events/` ディレクトリに置きます)
 #   title: 開催する DecaDojo のタイトル
 #   description: >-
-#     ココに説明文を書きます。Markdown 形式で書くことも可能です
+#     ココに説明文を書きます。一部の Markdown や HTML にも対応しています。
 
 # 例：「福島でかドージョー2023」の場合
 - url: https://decadojo.fukushima-coderdojo.com/
