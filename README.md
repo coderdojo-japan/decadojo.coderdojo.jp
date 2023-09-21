@@ -1,4 +1,4 @@
-[![DecaDojo Cover Photo](/img/ogp-decadojo.jpg)](https://decadojo.coderdojo.jp/)
+[![DecaDojo Cover Photo](https://github.com/coderdojo-japan/decadojo.coderdojo.jp/blob/main/img/cover.jpg?raw=true)](https://decadojo.coderdojo.jp/)
 
 # :yin_yang: What's Decadojo?
 
