@@ -1,17 +1,19 @@
 [![DecaDojo Cover Photo](https://github.com/coderdojo-japan/decadojo.coderdojo.jp/blob/main/img/cover.jpg?raw=true)](https://decadojo.coderdojo.jp/)
 
-# :yin_yang: What's DecaDojo?
+# :yin_yang: DecaDojo とは?
 
-「でかドージョー」は、埼玉県所沢市で始まった、近隣のCoderDojoが集まって、プログラミングを楽しむお祭りです。
+「でかドージョー」は、埼玉県所沢市で始まった、近隣の [CoderDojo](https://github.com/coderdojo-japan/) が集まって、プログラミングを楽しむお祭りです。
 
 でか（Deca）は、日本語で「大きい」を意味する「でかい」と、10倍を表す単位 [deca] をかけてます。( ｰ`дｰ´)ｷﾘｯ
 
 いつもと違う大きな会場で、みどころ10倍！楽しさ10倍！   
 ニンジャのみんなの参加まってるよ！
 
-\[[Webサイトを見る](https://decadojo.coderdojo.jp/)\]
+- DecaDojo の開催例を見る: https://dojocon.coderdojo.jp/
+- 全国の CoderDojo を見る: https://coderdojo.jp/
 
 <br>
+
 
 # :beginner: How to DecaDojo
 「でかドージョー」をやりたいと思った人が、気軽に開催していただけるように、ルールは簡潔にしています。ルールはこれだけ！
@@ -37,11 +39,11 @@
 
 <br>
 
-## :up: DecaDojo 情報の更新方法
+## :up: 開催情報の更新方法
 
-[`_data`](https://github.com/coderdojo-japan/decadojo/tree/main/_data) ディレクトリ内に `events.yml` という YAML ファイルがあり、この YAML ファイルを修正すると情報を更新できます。
+[`_data`](https://github.com/coderdojo-japan/decadojo.coderdojo.jp/tree/main/_data) ディレクトリ内に `events.yml` という YAML ファイルがあり、この YAML ファイルを修正すると情報を更新できます。
 
-[`_data/events.yml`](https://github.com/coderdojo-japan/decadojo/blob/main/_data/events.yml) ファイルの内容は以下の通りです。
+[`_data/events.yml`](https://github.com/coderdojo-japan/decadojo.coderdojo.jp/blob/main/_data/events.yml) ファイルの内容は以下の通りです。
 
 ```yml
 # - url: 公式サイトやイベントページへのURL
@@ -58,7 +60,7 @@
     福島県内のCoderDojoが集まって、プログラミングを楽しむお祭りです。2023年6月18日（日）福島県会津若松市 会津大学で「福島でかドージョー2023（会津大学 開学30周年記念イベント）」開催！（[#福島でかドージョー2023](https://twitter.com/hashtag/福島でかドージョー2023) / [アンケート結果・ダイジェスト動画](https://coderdojoshirakawa.hateblo.jp/entry/2023/07/18/201720)）
 ```
 
-\[[`_data/events.yml` ファイルを見る](https://github.com/coderdojo-japan/decadojo/blob/main/_data/events.yml)\]
+\[[`_data/events.yml` ファイルを見る](https://github.com/coderdojo-japan/decadojo.coderdojo.jp/blob/main/_data/events.yml)\]
 
 <br>
 
@@ -79,7 +81,7 @@
 - Theme:「ORION」(Version: 3.2.4)
 - Author: [Design Plus](http://design-plus1.com/tcd-w/)
 - 利用規約: [https://design-plus1.com/tcd-w/license_standard](https://design-plus1.com/tcd-w/license_standard)
-- 購入記録: [coderdojo-japan/decadojo/img/orion_purchase_license.png](https://github.com/coderdojo-japan/decadojo/blob/main/img/orion_purchase_license.png)
+- 購入記録: [coderdojo-japan/decadojo.coderdojo.jp/img/orion_purchase_license.png](https://github.com/coderdojo-japan/decadojo.coderdojo.jp/blob/main/img/orion_purchase_license.png)
 
 各サムネイル画像は、それぞれの実行委員会の著作物となります。
 
