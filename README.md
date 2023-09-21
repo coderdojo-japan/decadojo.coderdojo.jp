@@ -1,6 +1,6 @@
 [![DecaDojo Cover Photo](https://github.com/coderdojo-japan/decadojo.coderdojo.jp/blob/main/img/cover.jpg?raw=true)](https://decadojo.coderdojo.jp/)
 
-# :yin_yang: What's Decadojo?
+# :yin_yang: What's DecaDojo?
 
 「でかドージョー」は、埼玉県所沢市で始まった、近隣のCoderDojoが集まって、プログラミングを楽しむお祭りです。
 
