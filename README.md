@@ -9,7 +9,7 @@
 いつもと違う大きな会場で、みどころ10倍！楽しさ10倍！   
 ニンジャのみんなの参加まってるよ！
 
-- DecaDojo の開催例を見る: https://dojocon.coderdojo.jp/
+- DecaDojo の開催例を見る: https://decadojo.coderdojo.jp/
 - 全国の CoderDojo を見る: https://coderdojo.jp/
 
 <br>
