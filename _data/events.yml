@@ -1,5 +1,10 @@
 ---
-# Order by Newest
+
+# url:   公式サイトやイベントページへのURL
+# img:   サムネイル画像のファイル名 (画像は `img/events/` ディレクトリに置きます)
+# title: 開催する DecaDojo のタイトル
+# description: >-
+#   ココに説明文を書きます。一部の Markdown や HTML にも対応しています。
 
 # 2023
 - url: https://decadojo.fukushima-coderdojo.com/
