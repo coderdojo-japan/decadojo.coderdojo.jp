@@ -49,8 +49,6 @@ jobs:
 
     - name: 🧪 Install gems
       run: |
-        bundle config set with 'test'
-        bundle config set path 'vendor/bundle'
         bundle install
 
     - name: 🔧 Build

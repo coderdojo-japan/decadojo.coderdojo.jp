@@ -36,7 +36,7 @@ jobs:
 
     - name: 🧪 Install Ruby gems
       run: |
-        bundle install --jobs 4 --retry 3
+        bundle install
 
     - name: 📊 Update dojo stats of Japan
       run: |
