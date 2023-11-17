@@ -49,6 +49,7 @@ jobs:
           git config --global user.email "yohei@yasslab.jp"
           git checkout main
           git add _data/stats.yml
+          git add .bundle
           git commit -m '🤖 Update dojo stats'
           git push origin main
         fi
