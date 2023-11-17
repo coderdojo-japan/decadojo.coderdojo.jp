@@ -50,3 +50,16 @@ jobs:
         fi
       env:
         GITHUB_TOKEN:
+
+    - name: 🔧 Build & Test
+      run: |
+        JEKYLL_ENV=production bundle exec jekyll build
+        JEKYLL_ENV=production bundle exec jekyll doctor
+        SKIP_BUILD=true       bundle exec rake test
+
+    - name: 🚀 Deploy to GitHub Pages
+      if:   github.ref == 'refs/heads/main' && job.status == 'success'
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        personal_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir:    ./_site
