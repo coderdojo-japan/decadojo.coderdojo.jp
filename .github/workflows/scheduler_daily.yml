@@ -40,7 +40,7 @@ jobs:
 
     - name: 📊 Update dojo stats of Japan
       run: |
-        ./update_profile.rb
+        bundle exec ruby update_profile.rb
 
     - name: 🆙 Update profile if updated
       run: |
