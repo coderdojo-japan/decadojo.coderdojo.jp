@@ -7,9 +7,15 @@
 #   ココに説明文を書きます。一部の Markdown や HTML にも対応しています。
 
 # 2024
+- url: https://coderdojo-iyo.com/event/2598
+  img: matsuyama.webp
+  title: 松山 (愛媛)
+  description: >-
+    8月のCoderDojo伊予は、でかドージョー！愛媛と香川の4つのDojoが合同で開催します。いつもより、ちょっとだけ大きなDojoです👩‍💻👨‍💻✨
+
 - url: https://decadojo.fukushima-coderdojo.com/
   img: yabuki.jpg
-  title: 矢吹町
+  title: 矢吹町 (福島)
   description: >-
     福島県内のCoderDojoが集まって、プログラミングを楽しむお祭りです。昨年は会津若松で開催され、200人ほどが集まった大盛況のイベントとなりました。今年は矢吹プログラミングフェスとコラボ開催となります！（[開催レポートを見る](https://coderdojoshirakawa.hateblo.jp/entry/2024/07/20/220134)）
 
