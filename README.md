@@ -85,6 +85,10 @@
 
 各サムネイル画像は、それぞれの実行委員会の著作物となります。
 
+また以下のロゴ画像は原則として使用できません。
+
+<img alt='One of logo images (deca=10^1)' src='https://github.com/user-attachments/assets/e0531ae1-be0b-4a6b-96a7-ef9126399a95' width='200px'>
+
 -----
 
 Copyright ©  DecaDojo – でかドージョー & 一般社団法人 CoderDojo Japan ([@coderdojo-japan](https://github.com/coderdojo-japan)).
